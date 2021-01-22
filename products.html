@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Мой шаблон</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body class="body__blog body__products">
+  <img src="./img/body__blog.svg" alt="img" class="blog__svg1">
+  <img src="./img/body__blog2.svg" alt="img" class="blog__svg2">
+  <img src="./img/body__blog3.svg" alt="img" class="blog__svg3">
+  <header>
+    <!-------------------------------------------  Navbar ------------------------------------------->
+    <nav>
+      <div class="container">
+        <div class="navbar">
+          <div class="logo"> <a href="./index.html"> <img src="./img/logo.svg" alt="logo"> </a> </div>
+          <div class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item ">
+                <a href="./about.html">Обо мне </a>
+              </li>
+              <li class="menu__list-item menu__relative"><a href="#">
+                Курсы
+
+              </a>
+              <svg class="arrow__menu" width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0)">
+                <path class="menu__svg" d="M4.25303 6.82735L0.101775 2.66459C-0.0341561 2.5282 -0.0339276 2.30738 0.102478 2.17122C0.238866 2.03517 0.459805 2.03552 0.595842 2.17193L4.50002 6.08691L8.40417 2.17179C8.54023 2.0354 8.76103 2.03505 8.89743 2.17108C8.96581 2.23934 9 2.32876 9 2.41818C9 2.50737 8.96604 2.59644 8.89814 2.66457L4.74699 6.82735C4.68163 6.89304 4.59269 6.9299 4.50002 6.9299C4.40735 6.9299 4.31851 6.89294 4.25303 6.82735Z" />
+                </g>
+                <defs>
+                <clipPath id="clip0">
+                <rect width="9" height="9" fill="white" transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 -0.000366211)"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <ul class="submenu">
+                <li class="submenu__item"><a href="./">Курс для учителей</a></li>
+                <li class="submenu__item"><a href="./group.html">Групповые занятия онлайн</a></li>
+                <li class="submenu__item"><a href="./video.html">Видеокурсы</a></li>
+                <li class="submenu__item"><a href="./corporate.html">Корпоративный английский</a></li>
+              </ul>
+            </li>
+              <li class="menu__list-item"><a href="./products.html">Товары</a></li>
+              <li class="menu__list-item"><a href="./reviews.html">Отзывы</a></li>
+              <li class="menu__list-item"><a href="./blog.html">Блог</a></li>
+              <li class="menu__list-item menu__relative">
+                <a href="#">Материалы</a>
+                <svg class="arrow__menu" width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0)">
+                  <path class="menu__svg" d="M4.25303 6.82735L0.101775 2.66459C-0.0341561 2.5282 -0.0339276 2.30738 0.102478 2.17122C0.238866 2.03517 0.459805 2.03552 0.595842 2.17193L4.50002 6.08691L8.40417 2.17179C8.54023 2.0354 8.76103 2.03505 8.89743 2.17108C8.96581 2.23934 9 2.32876 9 2.41818C9 2.50737 8.96604 2.59644 8.89814 2.66457L4.74699 6.82735C4.68163 6.89304 4.59269 6.9299 4.50002 6.9299C4.40735 6.9299 4.31851 6.89294 4.25303 6.82735Z" />
+                  </g>
+                  <defs>
+                  <clipPath id="clip0">
+                  <rect width="9" height="9" fill="white" transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 -0.000366211)"/>
+                  </clipPath>
+                  </defs>
+                  </svg>
+                <ul class="submenu">
+                  <li class="submenu__item"><a href="./materials.html">Для учителей</a></li>
+                  <li class="submenu__item"><a href="./materials-students.html">Для учеников</a></li>
+                </ul>
+              </li>
+              <li class="menu__list-item"><a href="./test.html">Тест</a></li>
+              <li class="menu__list-item mail__item"><a href="mailto:jennyakimenko@yandex.ru"> <img src="./img/chat.svg" alt="chat"> jennyakimenko@yandex.ru</a></li>
+              
+            </ul>
+          </div>
+        <div class="burger">
+          <span></span>
+        </div>
+      </div>
+      </div>
+    </nav>
+    <!------------------------------------------- Navbar End ---------------------------------------->
+  </header>
+
+  <main>
+    <div class="container">
+      <ul class="breadcrumbs">
+        <li class="breadcrumbs__item"><a href="./index.html" class="breadcrumbs__link">Главная</a></li>
+        <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">/</a></li>
+        <li class="breadcrumbs__item"><a href="./products.html" class="breadcrumbs__link active">Товары</a></li>
+      </ul>
+      <h1 class="page__title">Товары</h1>
+    </div>
+
+
+    <section class="section__products">
+      <div class="container">
+        <div class="products">
+          <div class="products__item">
+            <div class="products__slider">
+              <!-- Slider main container -->
+              <div class="swiper-container product__container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper product__wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide product__slide">
+                      <img src="./img/product1.png" alt="product">
+                    </div>
+
+                    <div class="swiper-slide product__slide">
+                      <img src="./img/product1.png" alt="product">
+                    </div>
+
+                    <div class="swiper-slide product__slide">
+                      <img src="./img/product1.png" alt="product">
+                    </div>
+
+                    <div class="swiper-slide product__slide">
+                      <img src="./img/product1.png" alt="product">
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+              <div class="products__buttons products__buttons-teblet">
+                <div class="products__price"> <sup>₽</sup> 8000 </div>
+                <a href="" class="btn products__btn ">Оставить заявку</a>
+                
+              </div>
+            </div>
+            <div class="products__info">
+              <div class="products__title">Logical English Elementary 1</div>
+              <ul class="products__list">
+                <li class="products__list-item">Учебное пособие содержит аутентичные тексты, адаптированные до изучаемого уровня</li>
+                <li class="products__list-item">Учебное пособие предлагает комплекс грамматических и лексических упражнений, необходимый 
+                  и достаточный для формирования прочной базы лексико-грамматических навыков</li>
+                <li class="products__list-item">Комплекс упражнений выстроен в рамках изучаемой темы на основе текстов, что позволяет максимально эффективно усвоить лексику изучаемого модуля</li>
+                <li class="products__list-item">Каждый раздел включает тему для дискуссии, тексты подобраны на тематику, инициирующие желание обучающихся высказать свое мнение, что эффективно формирует навыки устной речи</li>
+                <li class="products__list-item">Учебное пособие разработано с уровня Beginner до Advanced, что предполагает изучение языка 
+                  с полного нуля до продвинутый (С1), т.е. до свободного владения языком</li>
+              </ul>
+              <div class="products__buttons">
+                <div class="products__price"> <sup>₽</sup> 8000 </div>
+                <a href="" class="btn products__btn ">Оставить заявку</a>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="products__item">
+            <div class="products__slider">
+              <!-- Slider main container -->
+              <div class="swiper-container product__container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper product__wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide product__slide">
+                      <img src="./img/product2.png" alt="product">
+                    </div>
+
+                    <div class="swiper-slide product__slide">
+                      <img src="./img/product2.png" alt="product">
+                    </div>
+
+                    <div class="swiper-slide product__slide">
+                      <img src="./img/product2.png" alt="product">
+                    </div>
+
+                    <div class="swiper-slide product__slide">
+                      <img src="./img/product2.png" alt="product">
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+              <div class="products__buttons products__buttons-teblet">
+                <div class="products__price"> <sup>₽</sup> 10000 </div>
+                <a href="" class="btn products__btn">Оставить заявку</a>
+                
+              </div>
+            </div>
+            <div class="products__info">
+              <div class="products__title">Logical English Elementary 2</div>
+              <ul class="products__list">
+                <li class="products__list-item">Учебное пособие содержит аутентичные тексты, адаптированные до изучаемого уровня</li>
+                <li class="products__list-item">Учебное пособие предлагает комплекс грамматических и лексических упражнений, необходимый 
+                  и достаточный для формирования прочной базы лексико-грамматических навыков</li>
+                <li class="products__list-item">Комплекс упражнений выстроен в рамках изучаемой темы на основе текстов, что позволяет максимально эффективно усвоить лексику изучаемого модуля</li>
+                <li class="products__list-item">Каждый раздел включает тему для дискуссии, тексты подобраны на тематику, инициирующие желание обучающихся высказать свое мнение, что эффективно формирует навыки устной речи</li>
+                <li class="products__list-item">Учебное пособие разработано с уровня Beginner до Advanced, что предполагает изучение языка 
+                  с полного нуля до продвинутый (С1), т.е. до свободного владения языком</li>
+              </ul>
+              <div class="products__buttons">
+                <div class="products__price"> <sup>₽</sup> 10000 </div>
+                <a href="" class="btn products__btn">Оставить заявку</a>
+                
+              </div>
+            </div>
+          </div>
+
+
+          <div class="products__item">
+            <div class="products__slider">
+              <!-- Slider main container -->
+              <div class="swiper-container product__container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper product__wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide product__slide">
+                      <img src="./img/product3.png" alt="product">
+                    </div>
+
+                    <div class="swiper-slide product__slide">
+                      <img src="./img/product3.png" alt="product">
+                    </div>
+
+                    <div class="swiper-slide product__slide">
+                      <img src="./img/product3.png" alt="product">
+                    </div>
+
+                    <div class="swiper-slide product__slide">
+                      <img src="./img/product3.png" alt="product">
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              </div>
+              <div class="products__buttons products__buttons-teblet">
+                <div class="products__price"> <sup>₽</sup> 12000 </div>
+                <a href="" class="btn products__btn">Оставить заявку</a>
+                
+              </div>
+            </div>
+            <div class="products__info">
+              <div class="products__title">Logical English Advanced 1</div>
+              <ul class="products__list">
+                <li class="products__list-item">Учебное пособие содержит аутентичные тексты, адаптированные до изучаемого уровня</li>
+                <li class="products__list-item">Учебное пособие предлагает комплекс грамматических и лексических упражнений, необходимый 
+                  и достаточный для формирования прочной базы лексико-грамматических навыков</li>
+                <li class="products__list-item">Комплекс упражнений выстроен в рамках изучаемой темы на основе текстов, что позволяет максимально эффективно усвоить лексику изучаемого модуля</li>
+                <li class="products__list-item">Каждый раздел включает тему для дискуссии, тексты подобраны на тематику, инициирующие желание обучающихся высказать свое мнение, что эффективно формирует навыки устной речи</li>
+                <li class="products__list-item">Учебное пособие разработано с уровня Beginner до Advanced, что предполагает изучение языка 
+                  с полного нуля до продвинутый (С1), т.е. до свободного владения языком</li>
+              </ul>
+              <div class="products__buttons">
+                <div class="products__price"> <sup>₽</sup> 12000 </div>
+                <a href="" class="btn products__btn">Оставить заявку</a>
+                
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <div class="container">
+      <div class="pagination">
+        <a href="#" class="pagination__item"><img src="./img/prev.svg" alt="arrow"></a>
+        <div class="pagination__item">
+          <a href="#" class="pagination__item-current">1</a>
+          <div class="pagination__item-line"></div>
+          <a href="#" class="pagination__item-all">3</a>
+        </div>
+        <a href="#" class="pagination__item"><img src="./img/next.svg" alt="arrow"></a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="footer__item">
+          <a href="#" class="footer__logo"><img src="./img/footer__logo.svg" alt="logo"></a>
+         <div class="footer__texts-pc">
+          <a href="./assets/document.docx" download target="_blank" class="footer__text">Договор-оферта</a>
+            <div class="footer__text">©Все права защищены</div>
+            <div class="footer__text">ИП</div>
+            <div class="footer__text">ОГРН</div>
+         </div>
+        </div>
+        <div class="footer__item">
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="./about.html">Обо мне</a></li>
+            <li class="footer__list-item"><a href="./products.html">Товары</a></li>
+            <li class="footer__list-item"><a href="./reviews.html">Отзывы</a></li>
+            <li class="footer__list-item"><a href="./blog.html">Блог</a></li>
+            <li class="footer__list-item"><a href="./test.html">Тест</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <ul class="footer__list">
+            <li class="footer__list-item"><a>Курсы</a></li>
+            <li class="footer__list-item"><a href="./group.html">Курс для учителей</a></li>
+            <li class="footer__list-item"><a href="./group.html">Групповые занятия онлайн</a></li>
+            <li class="footer__list-item"><a href="./video.html">Видеокурсы</a></li>
+            <li class="footer__list-item"><a href="./corporate.html">Корпоративный английский</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <ul class="footer__list">
+            <li class="footer__list-item"><a >Материалы</a></li>
+            <li class="footer__list-item"><a href="./materials.html">Для учителей</a></li>
+            <li class="footer__list-item"><a href="./materials-students.html">Для учеников</a></li>
+          </ul>
+          <div class="footer__social footer__social-pc">
+            <a href="https://m.vk.com/jenyakimenko" target="_blank" class="footer__social-item"><img src="./img/vk.svg" alt="vk"></a>
+            <a href="https://m.youtube.com/user/achernyakin" target="_blank" class="footer__social-item"><img src="./img/youtube.svg" alt="yt"></a>
+            <a href="https://www.instagram.com/eugenia_yakimenko/" target="_blank" class="footer__social-item"><img src="./img/instagram.svg" alt="inst"></a>
+          </div>
+        </div>
+        <div class="footer__item footer__form-pc">
+          <div class="footer__title">Подпишитесь на новости</div>
+          <form>
+
+              <!-- Hidden Required Fields -->
+              <input type="hidden" name="project_name" value="Форма в футере">
+              <input type="hidden" name="admin_email" value="jennyakimenko@yandex.ru">
+              <input type="hidden" name="form_subject" value="Форма в футере">
+              <!-- END Hidden Required Fields -->
+
+            <div class="footer__radios">
+              <label class="radio__item">
+                <input type="radio" name="radio" value="Я - учитель" class="radio__input">
+                <span class="fake"></span>
+                <span>вы учитель анг. языка</span>
+              </label>
+              <label class="radio__item">
+                <input type="radio" name="radio" value="Я - учиник" class="radio__input">
+                <span class="fake"></span>
+                <span>вы изучаете анг. язык</span>
+              </label>
+            </div>
+            <div class="footer__inputs">
+              <input type="email" placeholder="Email" class="footer__input" name="Email">
+              <button type="submit" class="footer__button">Подписаться</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer__item-tablet">
+
+        <div class="footer__texts-mob">
+          <a href="./assets/document.docx" download target="_blank" class="footer__text">Договор-оферта</a>
+          <div class="footer__text">©Все права защищены</div>
+          <div class="footer__text">ИП</div>
+          <div class="footer__text">ОГРН</div>
+       </div>
+
+        <div class="footer__social">
+          <a href="https://m.vk.com/jenyakimenko" target="_blank" class="footer__social-item"><img src="./img/vk.svg" alt="vk"></a>
+          <a href="https://m.youtube.com/user/achernyakin" target="_blank" class="footer__social-item"><img src="./img/youtube.svg" alt="yt"></a>
+          <a href="https://www.instagram.com/eugenia_yakimenko/" target="_blank" class="footer__social-item"><img src="./img/instagram.svg" alt="inst"></a>
+        </div>
+  
+  
+        <div class="footer__item footer__tablet-form">
+          <div class="footer__title">Подпишитесь на новости</div>
+          <form>
+                     <!-- Hidden Required Fields -->
+                     <input type="hidden" name="project_name" value="Форма в футере">
+                     <input type="hidden" name="admin_email" value="jennyakimenko@yandex.ru">
+                     <input type="hidden" name="form_subject" value="Форма в футере">
+                     <!-- END Hidden Required Fields -->
+            <div class="footer__radios">
+              <label class="radio__item">
+                <input type="radio" name="radio" value="Я - учитель" class="radio__input">
+                <span class="fake"></span>
+                <span>вы учитель анг. языка</span>
+              </label>
+              <label class="radio__item">
+                <input type="radio" name="radio" value="Я - ученик" class="radio__input">
+                <span class="fake"></span>
+                <span>вы изучаете анг. язык</span>
+              </label>
+            </div>
+            <div class="footer__inputs">
+              <input type="email" placeholder="Email" name="Email" class="footer__input">
+              <button type="submit" class="footer__button">Подписаться</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+  <!-------------------------------------------  Modal ------------------------------------------->
+  <div class="modal__wrapper products-modal__wrapper ">
+    <div class="modal products-modal">
+      <div class="modal__close products-modal__close "> <img src="./img/cancel.svg" alt="cancel" width="10px" height="10px"></div>
+      <div class="modal__title products-modal__title"><span>Оставьте заявку 
+        и мы вам перезвоним</span> </div>
+      <div class="modal__body products-modal__body">
+        <form class="form">
+                   <!-- Hidden Required Fields -->
+                   <input type="hidden" name="project_name" value="Заявка на курс">
+                   <input type="hidden" name="admin_email" value="jennyakimenko@yandex.ru">
+                   <input type="hidden" name="form_subject" value="Заявка на курс">
+                 <!-- END Hidden Required Fields -->
+          <div class="form__item">
+            <input type="text" placeholder="Имя Фамилия" required name="Имя Фамилия">
+          </div>
+          <div class="form__item">
+            <input type="tel" class="phone" placeholder="Телефон" required name="Телефон">
+          </div>
+          <div class="form__item">
+            <input type="text" placeholder="E-mail" required name="E-mail">
+          </div>
+          <div class="form__item">
+            <button type="submit" class="btn submit__btn">Отправить</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-------------------------------------------  Modal End ------------------------------------------->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script src="./js/scripts.min.js"></script>
+  
+</body>
+</html>

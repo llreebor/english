@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Мой шаблон</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+
+
+
+
+
+
+</head>
+
+<body class="body__blog">
+  <img src="./img/body__blog.svg" alt="img" class="blog__svg1">
+  <img src="./img/body__blog2.svg" alt="img" class="blog__svg2">
+  <img src="./img/body__blog3.svg" alt="img" class="blog__svg3">
+  <header>
+    <!-------------------------------------------  Navbar ------------------------------------------->
+    <nav>
+      <div class="container">
+        <div class="navbar">
+          <div class="logo"> <a href="./index.html"> <img src="./img/logo.svg" alt="logo"> </a> </div>
+          <div class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item ">
+                <a href="./about.html">Обо мне </a>
+              </li>
+              <li class="menu__list-item menu__relative"><a href="#">
+                Курсы
+
+              </a>
+              <svg class="arrow__menu" width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0)">
+                <path class="menu__svg" d="M4.25303 6.82735L0.101775 2.66459C-0.0341561 2.5282 -0.0339276 2.30738 0.102478 2.17122C0.238866 2.03517 0.459805 2.03552 0.595842 2.17193L4.50002 6.08691L8.40417 2.17179C8.54023 2.0354 8.76103 2.03505 8.89743 2.17108C8.96581 2.23934 9 2.32876 9 2.41818C9 2.50737 8.96604 2.59644 8.89814 2.66457L4.74699 6.82735C4.68163 6.89304 4.59269 6.9299 4.50002 6.9299C4.40735 6.9299 4.31851 6.89294 4.25303 6.82735Z" />
+                </g>
+                <defs>
+                <clipPath id="clip0">
+                <rect width="9" height="9" fill="white" transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 -0.000366211)"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <ul class="submenu">
+                <li class="submenu__item"><a href="./">Курс для учителей</a></li>
+                <li class="submenu__item"><a href="./group.html">Групповые занятия онлайн</a></li>
+                <li class="submenu__item"><a href="./video.html">Видеокурсы</a></li>
+                <li class="submenu__item"><a href="./corporate.html">Корпоративный английский</a></li>
+              </ul>
+            </li>
+              <li class="menu__list-item"><a href="./products.html">Товары</a></li>
+              <li class="menu__list-item"><a href="./reviews.html">Отзывы</a></li>
+              <li class="menu__list-item"><a href="./blog.html">Блог</a></li>
+              <li class="menu__list-item menu__relative">
+                <a href="#">Материалы</a>
+                <svg class="arrow__menu" width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0)">
+                  <path class="menu__svg" d="M4.25303 6.82735L0.101775 2.66459C-0.0341561 2.5282 -0.0339276 2.30738 0.102478 2.17122C0.238866 2.03517 0.459805 2.03552 0.595842 2.17193L4.50002 6.08691L8.40417 2.17179C8.54023 2.0354 8.76103 2.03505 8.89743 2.17108C8.96581 2.23934 9 2.32876 9 2.41818C9 2.50737 8.96604 2.59644 8.89814 2.66457L4.74699 6.82735C4.68163 6.89304 4.59269 6.9299 4.50002 6.9299C4.40735 6.9299 4.31851 6.89294 4.25303 6.82735Z" />
+                  </g>
+                  <defs>
+                  <clipPath id="clip0">
+                  <rect width="9" height="9" fill="white" transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 -0.000366211)"/>
+                  </clipPath>
+                  </defs>
+                  </svg>
+                <ul class="submenu">
+                  <li class="submenu__item"><a href="./materials.html">Для учителей</a></li>
+                  <li class="submenu__item"><a href="./materials-students.html">Для учеников</a></li>
+                </ul>
+              </li>
+              <li class="menu__list-item"><a href="./test.html">Тест</a></li>
+              <li class="menu__list-item mail__item"><a href="mailto:jennyakimenko@yandex.ru"> <img src="./img/chat.svg" alt="chat"> jennyakimenko@yandex.ru</a></li>
+              
+            </ul>
+          </div>
+        <div class="burger">
+          <span></span>
+        </div>
+      </div>
+      </div>
+    </nav>
+    <!------------------------------------------- Navbar End ---------------------------------------->
+  </header>
+
+  <main>
+    <div class="container">
+      <ul class="breadcrumbs">
+        <li class="breadcrumbs__item"><a href="./index.html" class="breadcrumbs__link">Главная</a></li>
+        <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">/</a></li>
+        <li class="breadcrumbs__item"><a href="./video.html" class="breadcrumbs__link active">Видеокурсы</a></li>
+      </ul>
+      <h1 class="page__title">Видеокурсы <a href="./test.html" download target="_blank">Пройти тест</a></h1>
+    </div>
+
+    <section class="section__corporate">
+      <div class="container">
+        <div class="corporate__title">О Курсах</div>
+        <div class="corporate">
+          <div class="corporate__row">
+            <div class="corporate__item">
+              <ul class="corporate__list">
+
+                <li class="corporate__list-item"><span><img src="./img/list__item.svg" alt="list"></span>Работаю с группами в онлайн в программе Zoom</li>
+                <li class="corporate__list-item"><span><img src="./img/list__item.svg" alt="list"></span>В данный момент работаю с подростковыми группами Beginner (9 лет), Elementary (10-11 лет), PreIntermediate, Intermediate, Upper-Intermediate. 
+                  При желании попасть в одну из продолжающих групп, пишите на почту jennyakimenko@yandex.ru, указав результаты теста и возраст ребенка.
+                  Ребенок может присоединиться к группе при наличии места в группе, согласно результатов теста</li>
+                <li class="corporate__list-item"><span><img src="./img/list__item.svg" alt="list"></span>Набираю одну группу Elementary 12+ c полного нуля. Курс Beginner будет дан в рамках Elementary. Для записи в группу, отправьте заявку</li>
+                <li class="corporate__list-item"><span><img src="./img/list__item.svg" alt="list"></span>Набираю две группы Elementary для взрослых с полного нуля. Выполнение домашних заданий и вовлеченность обязательны. Для записи в группу, отправьте заявку</li>
+                <li class="corporate__list-item"><span><img src="./img/list__item.svg" alt="list"></span>Если хотите записать ребенка и начать занятия через несколько лет, запишитесь в лист ожидания</li>
+              </ul>
+            </div>
+            <div class="corporate__item">
+                <img class="img" src="./img/group1.svg" alt="img">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section__orange">
+      <img src="./img/eclipse6.svg" alt="img" class="eclipse6">
+      <img src="./img/eclipse7.svg" alt="img" class="eclipse7">
+      <img src="./img/eclipse8.svg" alt="img" class="eclipse8">
+      <img src="./img/eclipse9.svg" alt="img" class="eclipse9">
+      <img src="./img/eclipse10.svg" alt="img" class="eclipse10">
+      <img src="./img/eclipse11.svg" alt="img" class="eclipse11">
+      <img src="./img/eclipse12.svg" alt="img" class="eclipse12">
+      <div class="container">
+        <h3 class="section__title">Кому подойдет курс</h3>
+        <div class="for">
+          <div class="for__item">
+            <div class="for__img"><img src="./img/for1.svg" alt="for"></div>
+            <div class="for__info">
+              <div class="for__info-title">Любопытным</div>
+              <div class="for__info-text">Для тех, кто хочет хорошо разбираться 
+                в английском и понимать его</div>
+            </div>
+          </div>
+
+          <div class="for__item">
+            <div class="for__img"><img src="./img/for2.svg" alt="for"></div>
+            <div class="for__info">
+              <div class="for__info-title">Упорным</div>
+              <div class="for__info-text">Для тех, кто готов много трудиться
+                для достижения отличных результатов</div>
+            </div>
+          </div>
+
+          <div class="for__item">
+            <div class="for__img"><img src="./img/for3.svg" alt="for"></div>
+            <div class="for__info">
+              <div class="for__info-title">Настырным</div>
+              <div class="for__info-text">Для тех, кто готов выучить язык за 4-5 
+                лет и разговаривать с носителями языка</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section__group-course">
+      <div class="container">
+        <h3 class="section__title">Выберите свой курс</h3>
+        <div class="course">
+          <div class="course__item">
+            <div class="course__num">01</div>
+            <div class="course__title">Курс Elementary для подростков 12+</div>
+            <ul class="course__list">
+              <li class="course__list-item"><img src="./img/list__item.svg" alt="">С полного нуля до A1-A2</li>
+              <li class="course__list-item"><img src="./img/list__item.svg" alt="">Занятия в Zoom 2 раза в неделю по 60 минут</li>
+              <div class="course__subtitle">Расписание</div>
+              <div class="course__date">среда 19-30 (МСК), пятница 19-30 (МСК)</div>
+              <li class="course__list-item"><img src="./img/list__item.svg" alt="">Необходимо приобрести Учебник Logical English 1 часть</li>
+              <li class="course__list-item"><img src="./img/list__item.svg" alt="">Бронь места по предоплате за два месяца</li>
+
+            </ul>
+            <div class="course__buttons">
+              <div class="course__price"> <sup>₽</sup> <span>8000</span>в месяц </div>
+              <a href="#" class="btn course__btn">Записаться</a>
+            </div>
+          </div>
+
+          <div class="course__item">
+            <div class="course__num">02</div>
+            <div class="course__title">Курс Elementary для взрослых</div>
+            <ul class="course__list">
+              <li class="course__list-item"><img src="./img/list__item.svg" alt="">С полного нуля до A1-A2</li>
+              <li class="course__list-item"><img src="./img/list__item.svg" alt="">Занятия в Zoom 2 раза в неделю по 60 минут</li>
+              <div class="course__subtitle">Расписание</div>
+              <div class="course__date">вторник 9-30 (МСК), четверг 9-30 (МСК)</div>
+              <li class="course__list-item"><img src="./img/list__item.svg" alt="">Необходимо приобрести Учебник Logical English 1 часть</li>
+              <li class="course__list-item"><img src="./img/list__item.svg" alt="">Бронь места по предоплате за два месяца</li>
+
+            </ul>
+            <div class="course__buttons">
+              <div class="course__price"> <sup>₽</sup> <span>10000</span>в месяц </div>
+              <a href="#" class="btn course__btn">Записаться</a>
+            </div>
+          </div>
+
+          <div class="course__item">
+            <div class="course__num">03</div>
+            <div class="course__title">Курс индивидуальных занятий</div>
+            <ul class="course__list">
+              <li class="course__list-item"><img src="./img/list__item.svg" alt="">Под индивидуальные цели при наличии времени в расписании преподавателя</li>
+              <li class="course__list-item"><img src="./img/list__item.svg" alt="">Предоплата за месяц</li>
+            </ul>
+            <div class="course__buttons">
+              <div class="course__price"> <sup>₽</sup> <span>32000</span>в месяц </div>
+              <a href="#" class="btn course__btn">Записаться</a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section__group-form">
+      <div class="container">
+        <h3 class="form__title">Записаться в лист ожидания</h3>
+        <form>
+              <!-- Hidden Required Fields -->
+              <input type="hidden" name="project_name" value="Запись в лист ожидания">
+              <input type="hidden" name="admin_email" value="jennyakimenko@yandex.ru">
+              <input type="hidden" name="form_subject" value="Запись в лист ожидания">
+            <!-- END Hidden Required Fields -->
+          <div class="radio__items">
+            <label class="radio__item">
+              <input type="radio" name="radio" value="Курс для меня" class="radio__input">
+              <span class="fake"></span>
+              <span>Курс для меня</span>
+            </label>
+            <label class="radio__item">
+              <input type="radio" name="radio" class="radio__input" value="Курс для ребенка">
+              <span class="fake"></span>
+              <span>Курс для ребенка</span>
+            </label>
+          </div>
+          <div class="inputs">
+            <div class="input__item input__item1">
+              <input type="text" placeholder="Имя Фамилия" name="Имя Фамилия" required>
+            </div>
+
+            <div class="input__item input__item2">
+              <input type="email" placeholder="Email" name="Email" required>
+            </div>
+
+            <div class="input__item input__item3">
+              <div class="c-dropdown js-dropdown">
+                <input type="hidden" name="Курс" id="Framework" class="js-dropdown__input" required>
+                <span class="c-button c-button--dropdown js-dropdown__current">Курс</span>
+                <ul class="c-dropdown__list">
+                  <li class="c-dropdown__item" data-dropdown-value="Курс 1">Курс 1</li>
+                  <li class="c-dropdown__item" data-dropdown-value="Курс 2">Курс 2</li>
+                  <li class="c-dropdown__item" data-dropdown-value="Курс 3">Курс 3</li>
+                  <li class="c-dropdown__item" data-dropdown-value="Курс 4">Курс 4</li>
+                  <li class="c-dropdown__item" data-dropdown-value="Курс 5">Курс 5</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="input__item input__item4">
+              <input type="tel" class="phone" placeholder="Телефон" name="Телефон" required>
+            </div>
+
+            <div class="input__item input__item5">
+              <div class="c-dropdown js-dropdown">
+                <input type="hidden" name="Готовы начать" id="Framework" class="js-dropdown__input" required>
+                <span class="c-button c-button--dropdown js-dropdown__current">Когда готовы начать</span>
+                <ul class="c-dropdown__list">
+                  <li class="c-dropdown__item" data-dropdown-value="Сегодня">Сегодня</li>
+                  <li class="c-dropdown__item" data-dropdown-value="Завтра">Завтра</li>
+                  <li class="c-dropdown__item" data-dropdown-value="Вчера">Вчера</li>
+                  <li class="c-dropdown__item" data-dropdown-value="Послезавтра">Послезавтра</li>
+                  <li class="c-dropdown__item" data-dropdown-value="Сейчас">Сейчас</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="input__item input__item6">
+              <button type="submit" class="btn form__btn">Отправить</button>
+            </div>
+          </div>
+        </form>
+      </div>
+     
+    </section>
+
+  </main>
+  
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="footer__item">
+          <a href="#" class="footer__logo"><img src="./img/footer__logo.svg" alt="logo"></a>
+         <div class="footer__texts-pc">
+          <a href="./assets/document.docx" download target="_blank" class="footer__text">Договор-оферта</a>
+            <div class="footer__text">©Все права защищены</div>
+            <div class="footer__text">ИП</div>
+            <div class="footer__text">ОГРН</div>
+         </div>
+        </div>
+        <div class="footer__item">
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="./about.html">Обо мне</a></li>
+            <li class="footer__list-item"><a href="./products.html">Товары</a></li>
+            <li class="footer__list-item"><a href="./reviews.html">Отзывы</a></li>
+            <li class="footer__list-item"><a href="./blog.html">Блог</a></li>
+            <li class="footer__list-item"><a href="./test.html">Тест</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <ul class="footer__list">
+            <li class="footer__list-item"><a>Курсы</a></li>
+            <li class="footer__list-item"><a href="./group.html">Курс для учителей</a></li>
+            <li class="footer__list-item"><a href="./group.html">Групповые занятия онлайн</a></li>
+            <li class="footer__list-item"><a href="./video.html">Видеокурсы</a></li>
+            <li class="footer__list-item"><a href="./corporate.html">Корпоративный английский</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <ul class="footer__list">
+            <li class="footer__list-item"><a>Материалы</a></li>
+            <li class="footer__list-item"><a href="./materials.html">Для учителей</a></li>
+            <li class="footer__list-item"><a href="./materials-students.html">Для учеников</a></li>
+          </ul>
+          <div class="footer__social footer__social-pc">
+            <a href="https://m.vk.com/jenyakimenko" target="_blank" class="footer__social-item"><img src="./img/vk.svg" alt="vk"></a>
+            <a href="https://m.youtube.com/user/achernyakin" target="_blank" class="footer__social-item"><img src="./img/youtube.svg" alt="yt"></a>
+            <a href="https://www.instagram.com/eugenia_yakimenko/" target="_blank" class="footer__social-item"><img src="./img/instagram.svg" alt="inst"></a>
+          </div>
+        </div>
+        <div class="footer__item footer__form-pc">
+          <div class="footer__title">Подпишитесь на новости</div>
+          <form>
+
+              <!-- Hidden Required Fields -->
+              <input type="hidden" name="project_name" value="Форма в футере">
+              <input type="hidden" name="admin_email" value="jennyakimenko@yandex.ru">
+              <input type="hidden" name="form_subject" value="Форма в футере">
+              <!-- END Hidden Required Fields -->
+
+            <div class="footer__radios">
+              <label class="radio__item">
+                <input type="radio" name="radio" value="Я - учитель" class="radio__input">
+                <span class="fake"></span>
+                <span>вы учитель анг. языка</span>
+              </label>
+              <label class="radio__item">
+                <input type="radio" name="radio" value="Я - учиник" class="radio__input">
+                <span class="fake"></span>
+                <span>вы изучаете анг. язык</span>
+              </label>
+            </div>
+            <div class="footer__inputs">
+              <input type="email" placeholder="Email" class="footer__input" name="Email">
+              <button type="submit" class="footer__button">Подписаться</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer__item-tablet">
+
+        <div class="footer__texts-mob">
+          <a href="./assets/document.docx" download target="_blank" class="footer__text">Договор-оферта</a>
+          <div class="footer__text">©Все права защищены</div>
+          <div class="footer__text">ИП</div>
+          <div class="footer__text">ОГРН</div>
+       </div>
+
+        <div class="footer__social">
+          <a href="https://m.vk.com/jenyakimenko" target="_blank" class="footer__social-item"><img src="./img/vk.svg" alt="vk"></a>
+          <a href="https://m.youtube.com/user/achernyakin" target="_blank" class="footer__social-item"><img src="./img/youtube.svg" alt="yt"></a>
+          <a href="https://www.instagram.com/eugenia_yakimenko/" target="_blank" class="footer__social-item"><img src="./img/instagram.svg" alt="inst"></a>
+        </div>
+  
+  
+        <div class="footer__item footer__tablet-form">
+          <div class="footer__title">Подпишитесь на новости</div>
+          <form>
+                     <!-- Hidden Required Fields -->
+                     <input type="hidden" name="project_name" value="Форма в футере">
+                     <input type="hidden" name="admin_email" value="jennyakimenko@yandex.ru">
+                     <input type="hidden" name="form_subject" value="Форма в футере">
+                     <!-- END Hidden Required Fields -->
+            <div class="footer__radios">
+              <label class="radio__item">
+                <input type="radio" name="radio" value="Я - учитель" class="radio__input">
+                <span class="fake"></span>
+                <span>вы учитель анг. языка</span>
+              </label>
+              <label class="radio__item">
+                <input type="radio" name="radio" value="Я - ученик" class="radio__input">
+                <span class="fake"></span>
+                <span>вы изучаете анг. язык</span>
+              </label>
+            </div>
+            <div class="footer__inputs">
+              <input type="email" placeholder="Email" name="Email" class="footer__input">
+              <button type="submit" class="footer__button">Подписаться</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+  <!-------------------------------------------  Modal ------------------------------------------->
+  <!-- <div class="modal__wrapper">
+    <div class="modal">
+      <div class="modal__close"> <img src="./img/cancel.svg" alt="cancel" width="10px" height="10px"></div>
+      <div class="modal__title"><span>Написать мне:</span> </div>
+      <div class="modal__body">
+      </div>
+    </div>
+  </div> -->
+  <!-------------------------------------------  Modal End ------------------------------------------->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script src="./js/scripts.min.js"></script>
+  
+</body>
+</html>

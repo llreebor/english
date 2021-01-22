@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Мой шаблон</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body class="body__blog">
+  <img src="./img/body__blog.svg" alt="img" class="blog__svg1">
+  <img src="./img/body__blog2.svg" alt="img" class="blog__svg2">
+  <img src="./img/body__blog3.svg" alt="img" class="blog__svg3">
+  <header class="about__header">
+    <!-------------------------------------------  Navbar ------------------------------------------->
+    <nav>
+      <div class="container">
+        <div class="navbar">
+          <div class="logo"> <a href="./index.html"> <img src="./img/logo.svg" alt="logo"> </a> </div>
+          <div class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item ">
+                <a href="./about.html">Обо мне </a>
+              </li>
+              <li class="menu__list-item menu__relative"><a href="#">
+                Курсы
+
+              </a>
+              <svg class="arrow__menu" width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0)">
+                <path class="menu__svg" d="M4.25303 6.82735L0.101775 2.66459C-0.0341561 2.5282 -0.0339276 2.30738 0.102478 2.17122C0.238866 2.03517 0.459805 2.03552 0.595842 2.17193L4.50002 6.08691L8.40417 2.17179C8.54023 2.0354 8.76103 2.03505 8.89743 2.17108C8.96581 2.23934 9 2.32876 9 2.41818C9 2.50737 8.96604 2.59644 8.89814 2.66457L4.74699 6.82735C4.68163 6.89304 4.59269 6.9299 4.50002 6.9299C4.40735 6.9299 4.31851 6.89294 4.25303 6.82735Z" />
+                </g>
+                <defs>
+                <clipPath id="clip0">
+                <rect width="9" height="9" fill="white" transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 -0.000366211)"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <ul class="submenu">
+                <li class="submenu__item"><a href="./">Курс для учителей</a></li>
+                <li class="submenu__item"><a href="./group.html">Групповые занятия онлайн</a></li>
+                <li class="submenu__item"><a href="./video.html">Видеокурсы</a></li>
+                <li class="submenu__item"><a href="./corporate.html">Корпоративный английский</a></li>
+              </ul>
+            </li>
+              <li class="menu__list-item"><a href="./products.html">Товары</a></li>
+              <li class="menu__list-item"><a href="./reviews.html">Отзывы</a></li>
+              <li class="menu__list-item"><a href="./blog.html">Блог</a></li>
+              <li class="menu__list-item menu__relative">
+                <a href="#">Материалы</a>
+                <svg class="arrow__menu" width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0)">
+                  <path class="menu__svg" d="M4.25303 6.82735L0.101775 2.66459C-0.0341561 2.5282 -0.0339276 2.30738 0.102478 2.17122C0.238866 2.03517 0.459805 2.03552 0.595842 2.17193L4.50002 6.08691L8.40417 2.17179C8.54023 2.0354 8.76103 2.03505 8.89743 2.17108C8.96581 2.23934 9 2.32876 9 2.41818C9 2.50737 8.96604 2.59644 8.89814 2.66457L4.74699 6.82735C4.68163 6.89304 4.59269 6.9299 4.50002 6.9299C4.40735 6.9299 4.31851 6.89294 4.25303 6.82735Z" />
+                  </g>
+                  <defs>
+                  <clipPath id="clip0">
+                  <rect width="9" height="9" fill="white" transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 -0.000366211)"/>
+                  </clipPath>
+                  </defs>
+                  </svg>
+                <ul class="submenu">
+                  <li class="submenu__item"><a href="./materials.html">Для учителей</a></li>
+                  <li class="submenu__item"><a href="./materials-students.html">Для учеников</a></li>
+                </ul>
+              </li>
+              <li class="menu__list-item"><a href="./test.html">Тест</a></li>
+              <li class="menu__list-item mail__item"><a href="mailto:jennyakimenko@yandex.ru"> <img src="./img/chat.svg" alt="chat"> jennyakimenko@yandex.ru</a></li>
+              
+            </ul>
+          </div>
+        <div class="burger">
+          <span></span>
+        </div>
+      </div>
+      </div>
+    </nav>
+
+    <!------------------------------------------- Navbar End ---------------------------------------->
+
+  
+  </header>
+
+  <main>
+    <div class="container">
+      <ul class="breadcrumbs">
+        <li class="breadcrumbs__item"><a href="./index.html" class="breadcrumbs__link">Главная</a></li>
+        <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">/</a></li>
+        <li class="breadcrumbs__item"><a href="./about.html" class="breadcrumbs__link active"> Обо мне</a></li>
+      </ul>
+      <h1 class="page__title"> Обо мне</h1>
+    </div>
+
+    <section class="section__author">
+      <div class="container">
+        <h3 class="author__title">Евгения Якименко </h3>
+        <div class="author">
+          <div class="author__item">
+            <div class="author__text">Меня зовут Евгения Якименко, на момент написания этих строк мне 40 лет. 
+              Я являюсь <span>профессиональныv преподавателем</span> английского языка.
+              На иняз я попала в свое время, только потому, что не понимала английский язык. В школьные годы <span>училась в лучших гимназиях и лицеях</span>, 
+              на олимпиадном уровне занималась математикой, физикой, химией, астрономией, русским языком. Мне давалось все, кроме английского.
+              Разумеется, у меня <span>были одни пятерки по английскому</span>, но я его не понимала. Не понимала так хорошо, как я понимала математику
+              и др. предметы.
+              </div>
+            <div class="author__text">Это непонимание и привело меня, выпускницу лучшего физико-математического лицея, на иняз, который я окончила с отличием. Позже окончила экономический факультет. Став учителем, я выбрала свое кредо. Я решила, что со мной английский язык <span>должен быть понятен</span> моим ученикам. С тех пор я работаю над <span>собственной методикой преподавания</span>
+              английского языка «Логика. Лексика». Я структурирую информацию, привожу ее в логичный и понятный формат, применяю методы ассоциации, являюсь сторонницей лексического подхода, использую принципы опережающего развития.</div>
+            <div class="author__text">Моя педагогическая практика включает работу в университете на факультете «Мировая Экономика», где я вела <span>углубленный курс английского языка</span> 
+              для студентов-международников, курс экономического английского 
+              для профессиональных целей, курс для профессоропреподавательского состава. Работала на практике в спецшколе с углубленным изучением
+              английского языка, после которой получила приглашение на работу в этой гимназии. В последние годы <span>занимаюсь частной практикой</span>, веду групповые занятия для подростков.</div>
+          </div>
+          <div class="author__item">
+            <img src="./img/author.svg" alt="img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__progress">
+      <div class="container">
+        <h3 достижения class="section__title">Мои достижения</h3>
+        <h4 class="progress__subtitle">За годы преподавательской деятельности научила английскому сотни человек до уровня Advanced продвинутый).</h4>
+        <div class="progress">
+          <div class="progress__item">
+            <ul class="progress__list">
+              <li class="progress__list-item"> <img src="./img/list__item.svg" alt="img"> Работаю над курсом «English for Economics» для студентов-международников
+              </li>
+              <li class="progress__list-item"><img src="./img/list__item.svg" alt="img"> Автор курса по методологии анг. языка для учителей «Логика.Лексика»</li>
+            </ul>
+          </div>
+          <div class="progress__item">
+            <ul class="progress__list">
+              <li class="progress__list-item"><img src="./img/list__item.svg" alt="img">  Работаю с группами, специализируюсь на работе с подростками, преподаю углубленный курс английского языка
+              </li>
+              <li class="progress__list-item"><img src="./img/list__item.svg" alt="img"> Пишу учебник Logical English</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__orange">
+      <img src="./img/eclipse6.svg" alt="img" class="eclipse6">
+      <img src="./img/eclipse7.svg" alt="img" class="eclipse7">
+      <img src="./img/eclipse8.svg" alt="img" class="eclipse8">
+      <img src="./img/eclipse9.svg" alt="img" class="eclipse9">
+      <img src="./img/eclipse10.svg" alt="img" class="eclipse10">
+      <img src="./img/eclipse11.svg" alt="img" class="eclipse11">
+      <img src="./img/eclipse12.svg" alt="img" class="eclipse12">
+
+      <div class="container">
+        <h3 class="section__title">Почему я</h3>
+        <div class="for why">
+          <div class="for__item why__item">
+            <div class="for__img"><img src="./img/why1.svg" alt="for"></div>
+            <div class="for__info">
+              <div class="for__info-title">Экономия времени</div>
+              <div class="for__info-text">Не тяну резину, и не даю бесполезных заданий, имею четкий тайминг</div>
+            </div>
+          </div>
+
+          <div class="for__item why__item">
+            <div class="for__img"><img src="./img/why2.svg" alt="for"></div>
+            <div class="for__info">
+              <div class="for__info-title">Все понятно</div>
+              <div class="for__info-text">С первого урока ученики понимают, что, как и почему они делают</div>
+            </div>
+          </div>
+
+          <div class="for__item why__item">
+            <div class="for__img"><img src="./img/why3.svg" alt="for"></div>
+            <div class="for__info">
+              <div class="for__info-title">Четкий результат</div>
+              <div class="for__info-text">Получаю четкий осязаемый результат за конкретное время</div>
+            </div>
+          </div>
+
+          <div class="for__item why__item">
+            <div class="for__img"><img src="./img/why4.svg" alt="for"></div>
+            <div class="for__info">
+              <div class="for__info-title">Логичность</div>
+              <div class="for__info-text">Вся информация легко воспринимается 
+                и запоминается</div>
+            </div>
+          </div>
+
+          <div class="for__item why__item">
+            <div class="for__img"><img src="./img/why5.svg" alt="for"></div>
+            <div class="for__info">
+              <div class="for__info-title">Система многоповтора</div>
+              <div class="for__info-text">Информация дается неоднократно, 
+                в несколько подходов</div>
+            </div>
+          </div>
+
+          <div class="for__item why__item">
+            <div class="for__img"><img src="./img/why6.svg" alt="for"></div>
+            <div class="for__info">
+              <div class="for__info-title">Повышенная сложность</div>
+              <div class="for__info-text">Мои материалы всегда чуть сложнее, чем ученик может в данный момент</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__methods">
+      <div class="container">
+        <h3 class="section__title">Методика «Логика.Лексика»</h3>
+        <div class="methods">
+          <div class="methods__items">
+            <div class="methods__item methods__info">
+              <div class="methods__text">Работаю над собственной методикой «Логика.Лексика», в названии которой 
+                и отражены основные принципы методики</div>
+              <div class="methods__text"><span>«Логика»</span> - 1 компонент системы, отражает логичную, последовательную, структурированную подачу информации. Схемы и логические выкладки 
+                в основе запоминания грамматических тем.</div>
+              <div class="methods__text"><span>«Лексика»</span> - 2 компонент системы, отображает лексический подход 
+                к изучению языка. И грамматические, и лексические темы идут через призму «концепта», «смысла», а не формы. Лексические единицы изучаются в составе фразы, в контексте, с позиции смысла. Широко применяю принцип ассоциаций, использую триггеры</div>
+              <div class="methods__text">Являюсь <span>поклонницей коммуникативного метода</span>, но в авторской трактовке. Коммуникативный метод использую при постановке устной речи. Тематика текстов подобрана таким образом, что она инициирует ученика к выражению собственного мнения, т.е. к коммуникации.</div>
+            </div>
+            <div class="methods__item methods__img"><img src="./img/methods1.svg" alt="img"></div>
+          </div>
+
+          <div class="methods__items second__item">
+            <div class="methods__item methods__img"><img src="./img/methods2.svg" alt="img"></div>
+            <div class="methods__item methods__info">
+              <div class="methods__text">Поддерживаю идеи опережающего развития, поэтому сложность материала всегда превышает возможности ученика на данный момент, но в пределах 
+                его ближайшего развития. Это мотивирует <span>учеников и удивляет</span>, когда 
+                им удаются «невозможные», в их понимании, вещи. </div>
+              <div class="methods__text">Групповые занятия построены по принципу групповых занятий, 
+                но с индивидуальным контролем. Каждый ученик <span>добивается собственных результатов</span> по собственной траектории развития. </div>
+              <div class="methods__text">Со мной <span>очень просто и понятно работать</span>: если чётко делать, 
+                то, что я говорю, то результат такой, какой я обещаю. <span>Всегда.</span> Без исключений. Если ничего не делать, то ничего не будет.</div>
+              <div class="methods__text"><span>Данная методика дает отличные практические результаты, 
+                что подтверждено моей многолетней практикой</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="section__orange section__orange2">
+      <img src="./img/eclipse1.svg" alt="eclipse" class="eclipse1">
+      <img src="./img/eclipse2.svg" alt="eclipse" class="eclipse2">
+      <img src="./img/eclipse3.svg" alt="eclipse" class="eclipse3">
+      <img src="./img/eclipse4.svg" alt="eclipse" class="eclipse4">
+      <img src="./img/eclipse5.svg" alt="eclipse" class="eclipse5">
+      <div class="container">
+        <h3 class="section__title">Методика в учебнике Logical English</h3>
+        <div class="book__subtitle">Применяемая методика нашла отражение в моем учебнике Logical English</div>
+        <div class="book">
+          <div class="book__item">
+            <ul class="book__list">
+              <li class="book__list-item">Аутентичные тексты, адаптированные до изучаемого уровня</li>
+              <li class="book__list-item">Комплекс грамматических и лексических упражнений, необходимый 
+                и достаточный для формирования очень прочной базы лексико-грамматических навыков</li>
+              <li class="book__list-item">Комплекс упражнений выстроен в рамках изучаемой темы на основе текстов, что позволяет максимально эффективно усвоить лексику изучаемого модуля</li>
+            </ul>
+          </div>
+
+          <div class="book__item">
+            <ul class="book__list">
+              <li class="book__list-item"> Грамматический материал выстроен в рамках системы, презентуется логично и последовательно, отрабатывается шаг за шагом, в несколько подходов, что позволяет глубже и точнее понять тему</li>
+              <li class="book__list-item"> Используемые паттерны автоматизирует грамматические навыки</li>
+              <li class="book__list-item">Каждый раздел включает тему для дискуссии, тексты подобраны 
+                на тематику, инициирующие желание обучающихся высказать свое мнение, что эффективно формирует навыки устной речи</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__about-form">
+      <div class="container">
+        <h3 class="section__title">Записаться на курс</h3>
+        <div class="about__form">
+          <div class="about__form-item">
+            <div class="form__title">Запишитесь на курсы проверьте эффективность моей методики</div>
+            <form>
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="Записаться на курс">
+                <input type="hidden" name="admin_email" value="jennyakimenko@yandex.ru">
+                <input type="hidden" name="form_subject" value="Записаться на курс">
+                <!-- END Hidden Required Fields -->
+              <div class="form__item">
+                <input type="text" class="input" placeholder="Имя Фамилия" name="Фамилия Имя">
+              </div> 
+
+              <div class="form__item">
+                <input type="tel" class="input phone" placeholder="Телефон" name="Телефон">
+              </div> 
+
+              <div class="form__item">
+                <input type="email" class="input" placeholder="Email" name="Email">
+              </div> 
+
+              <div class="form__item">
+                <div class="c-dropdown js-dropdown">
+                  <input type="hidden" name="Курс" id="Framework" class="js-dropdown__input">
+                  <span class="c-button c-button--dropdown js-dropdown__current">Курс</span>
+                  <ul class="c-dropdown__list">
+                    <li class="c-dropdown__item" data-dropdown-value="Курс 1">Курс 1</li>
+                    <li class="c-dropdown__item" data-dropdown-value="Курс 2">Курс 2</li>
+                    <li class="c-dropdown__item" data-dropdown-value="Курс 3">Курс 3</li>
+                    <li class="c-dropdown__item" data-dropdown-value="Курс 4">Курс 4</li>
+                    <li class="c-dropdown__item" data-dropdown-value="Курс 5">Курс 5</li>
+                  </ul>
+                </div>
+              </div> 
+              <div class="form__item">
+                <button type="submit" class="btn form__btn">Отправить</button>
+              </div> 
+            </form>
+          </div>
+          <div class="about__form-item"><img src="./img/about__form.svg" alt=""></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="footer__item">
+          <a href="#" class="footer__logo"><img src="./img/footer__logo.svg" alt="logo"></a>
+         <div class="footer__texts-pc">
+          <a href="./assets/document.docx" download target="_blank" class="footer__text">Договор-оферта</a>
+            <div class="footer__text">©Все права защищены</div>
+            <div class="footer__text">ИП</div>
+            <div class="footer__text">ОГРН</div>
+         </div>
+        </div>
+        <div class="footer__item">
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="./about.html">Обо мне</a></li>
+            <li class="footer__list-item"><a href="./products.html">Товары</a></li>
+            <li class="footer__list-item"><a href="./reviews.html">Отзывы</a></li>
+            <li class="footer__list-item"><a href="./blog.html">Блог</a></li>
+            <li class="footer__list-item"><a href="./test.html">Тест</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <ul class="footer__list">
+            <li class="footer__list-item"><a >Курсы</a></li>
+            <li class="footer__list-item"><a href="./group.html">Курс для учителей</a></li>
+            <li class="footer__list-item"><a href="./group.html">Групповые занятия онлайн</a></li>
+            <li class="footer__list-item"><a href="./video.html">Видеокурсы</a></li>
+            <li class="footer__list-item"><a href="./corporate.html">Корпоративный английский</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <ul class="footer__list">
+            <li class="footer__list-item"><a >Материалы</a></li>
+            <li class="footer__list-item"><a href="./materials.html">Для учителей</a></li>
+            <li class="footer__list-item"><a href="./materials-students.html">Для учеников</a></li>
+          </ul>
+          <div class="footer__social footer__social-pc">
+            <a href="https://m.vk.com/jenyakimenko" target="_blank" class="footer__social-item"><img src="./img/vk.svg" alt="vk"></a>
+            <a href="https://m.youtube.com/user/achernyakin" target="_blank" class="footer__social-item"><img src="./img/youtube.svg" alt="yt"></a>
+            <a href="https://www.instagram.com/eugenia_yakimenko/" target="_blank" class="footer__social-item"><img src="./img/instagram.svg" alt="inst"></a>
+          </div>
+        </div>
+        <div class="footer__item footer__form-pc">
+          <div class="footer__title">Подпишитесь на новости</div>
+          <form>
+
+              <!-- Hidden Required Fields -->
+              <input type="hidden" name="project_name" value="Форма в футере">
+              <input type="hidden" name="admin_email" value="jennyakimenko@yandex.ru">
+              <input type="hidden" name="form_subject" value="Форма в футере">
+              <!-- END Hidden Required Fields -->
+
+            <div class="footer__radios">
+              <label class="radio__item">
+                <input type="radio" name="radio" value="Я - учитель" class="radio__input">
+                <span class="fake"></span>
+                <span>вы учитель анг. языка</span>
+              </label>
+              <label class="radio__item">
+                <input type="radio" name="radio" value="Я - учиник" class="radio__input">
+                <span class="fake"></span>
+                <span>вы изучаете анг. язык</span>
+              </label>
+            </div>
+            <div class="footer__inputs">
+              <input type="email" placeholder="Email" class="footer__input" name="Email">
+              <button type="submit" class="footer__button">Подписаться</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer__item-tablet">
+
+        <div class="footer__texts-mob">
+          <a href="./assets/document.docx" download target="_blank" class="footer__text">Договор-оферта</a>
+          <div class="footer__text">©Все права защищены</div>
+          <div class="footer__text">ИП</div>
+          <div class="footer__text">ОГРН</div>
+       </div>
+
+        <div class="footer__social">
+          <a href="https://m.vk.com/jenyakimenko" target="_blank" class="footer__social-item"><img src="./img/vk.svg" alt="vk"></a>
+          <a href="https://m.youtube.com/user/achernyakin" target="_blank" class="footer__social-item"><img src="./img/youtube.svg" alt="yt"></a>
+          <a href="https://www.instagram.com/eugenia_yakimenko/" target="_blank" class="footer__social-item"><img src="./img/instagram.svg" alt="inst"></a>
+        </div>
+  
+  
+        <div class="footer__item footer__tablet-form">
+          <div class="footer__title">Подпишитесь на новости</div>
+          <form>
+                     <!-- Hidden Required Fields -->
+                     <input type="hidden" name="project_name" value="Форма в футере">
+                     <input type="hidden" name="admin_email" value="jennyakimenko@yandex.ru">
+                     <input type="hidden" name="form_subject" value="Форма в футере">
+                     <!-- END Hidden Required Fields -->
+            <div class="footer__radios">
+              <label class="radio__item">
+                <input type="radio" name="radio" value="Я - учитель" class="radio__input">
+                <span class="fake"></span>
+                <span>вы учитель анг. языка</span>
+              </label>
+              <label class="radio__item">
+                <input type="radio" name="radio" value="Я - ученик" class="radio__input">
+                <span class="fake"></span>
+                <span>вы изучаете анг. язык</span>
+              </label>
+            </div>
+            <div class="footer__inputs">
+              <input type="email" placeholder="Email" name="Email" class="footer__input">
+              <button type="submit" class="footer__button">Подписаться</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+  <!-------------------------------------------  Modal ------------------------------------------->
+  <!-- <div class="modal__wrapper">
+    <div class="modal">
+      <div class="modal__close"> <img src="./img/cancel.svg" alt="cancel" width="10px" height="10px"></div>
+      <div class="modal__title"><span>Написать мне:</span> </div>
+      <div class="modal__body">
+      </div>
+    </div>
+  </div> -->
+  <!-------------------------------------------  Modal End ------------------------------------------->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script src="./js/scripts.min.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Мой шаблон</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body class="body__blog">
+  <img src="./img/body__blog.svg" alt="img" class="blog__svg1">
+  <img src="./img/body__blog2.svg" alt="img" class="blog__svg2">
+  <img src="./img/body__blog3.svg" alt="img" class="blog__svg3">
+  <header>
+    <!-------------------------------------------  Navbar ------------------------------------------->
+    <nav>
+      <div class="container">
+        <div class="navbar">
+          <div class="logo"> <a href="./index.html"> <img src="./img/logo.svg" alt="logo"> </a> </div>
+          <div class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item ">
+                <a href="./about.html">Обо мне </a>
+              </li>
+              <li class="menu__list-item menu__relative"><a href="#">
+                Курсы
+
+              </a>
+              <svg class="arrow__menu" width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0)">
+                <path class="menu__svg" d="M4.25303 6.82735L0.101775 2.66459C-0.0341561 2.5282 -0.0339276 2.30738 0.102478 2.17122C0.238866 2.03517 0.459805 2.03552 0.595842 2.17193L4.50002 6.08691L8.40417 2.17179C8.54023 2.0354 8.76103 2.03505 8.89743 2.17108C8.96581 2.23934 9 2.32876 9 2.41818C9 2.50737 8.96604 2.59644 8.89814 2.66457L4.74699 6.82735C4.68163 6.89304 4.59269 6.9299 4.50002 6.9299C4.40735 6.9299 4.31851 6.89294 4.25303 6.82735Z" />
+                </g>
+                <defs>
+                <clipPath id="clip0">
+                <rect width="9" height="9" fill="white" transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 -0.000366211)"/>
+                </clipPath>
+                </defs>
+                </svg>
+              <ul class="submenu">
+                <li class="submenu__item"><a href="./">Курс для учителей</a></li>
+                <li class="submenu__item"><a href="./group.html">Групповые занятия онлайн</a></li>
+                <li class="submenu__item"><a href="./video.html">Видеокурсы</a></li>
+                <li class="submenu__item"><a href="./corporate.html">Корпоративный английский</a></li>
+              </ul>
+            </li>
+              <li class="menu__list-item"><a href="./products.html">Товары</a></li>
+              <li class="menu__list-item"><a href="./reviews.html">Отзывы</a></li>
+              <li class="menu__list-item"><a href="./blog.html">Блог</a></li>
+              <li class="menu__list-item menu__relative">
+                <a href="#">Материалы</a>
+                <svg class="arrow__menu" width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0)">
+                  <path class="menu__svg" d="M4.25303 6.82735L0.101775 2.66459C-0.0341561 2.5282 -0.0339276 2.30738 0.102478 2.17122C0.238866 2.03517 0.459805 2.03552 0.595842 2.17193L4.50002 6.08691L8.40417 2.17179C8.54023 2.0354 8.76103 2.03505 8.89743 2.17108C8.96581 2.23934 9 2.32876 9 2.41818C9 2.50737 8.96604 2.59644 8.89814 2.66457L4.74699 6.82735C4.68163 6.89304 4.59269 6.9299 4.50002 6.9299C4.40735 6.9299 4.31851 6.89294 4.25303 6.82735Z" />
+                  </g>
+                  <defs>
+                  <clipPath id="clip0">
+                  <rect width="9" height="9" fill="white" transform="matrix(-4.37114e-08 1 1 4.37114e-08 0 -0.000366211)"/>
+                  </clipPath>
+                  </defs>
+                  </svg>
+                <ul class="submenu">
+                  <li class="submenu__item"><a href="./materials.html">Для учителей</a></li>
+                  <li class="submenu__item"><a href="./materials-students.html">Для учеников</a></li>
+                </ul>
+              </li>
+              <li class="menu__list-item"><a href="./test.html">Тест</a></li>
+              <li class="menu__list-item mail__item"><a href="mailto:jennyakimenko@yandex.ru"> <img src="./img/chat.svg" alt="chat"> jennyakimenko@yandex.ru</a></li>
+              
+            </ul>
+          </div>
+        <div class="burger">
+          <span></span>
+        </div>
+      </div>
+      </div>
+    </nav>
+    <!------------------------------------------- Navbar End ---------------------------------------->
+  </header>
+
+  <main>
+    <div class="container">
+      <ul class="breadcrumbs">
+        <li class="breadcrumbs__item"><a href="./index.html" class="breadcrumbs__link">Главная</a></li>
+        <li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link">/</a></li>
+        <li class="breadcrumbs__item"><a href="./test.html" class="breadcrumbs__link active">Тест</a></li>
+      </ul>
+      <h1 class="page__title">Уровне владения английским языком</h1>
+    </div>
+
+    <section class="section__test">
+      <div class="container">
+        <div class="test">
+          <div class="test__item test__item-even test__item1">
+            <img src="./img/test1.svg" alt="test" class="test__img-even test__img-even1">
+            <div class="test__item-titles">
+              <div class="test__item-title">А0 Beginner</div>
+              <div class="test__item-subtitle">Словарный запас 500-600 слов</div>
+            </div>
+            <div class="test__item-text">Я умею читать, строить простые предложения, задавать вопросы, понимаю простые тексты на бытовые темы, в туристических ситуациях могу заказать по меню, отличу мясо от рыбы)</div>
+          </div>
+
+          <div class="test__item test__item-odd">
+            <img src="./img/test2.svg" alt="test" class="test__img-odd test__img-even2">
+            <div class="test__item-titles test__odd">
+              <div class="test__item-title">A1 Elementary</div>
+              <div class="test__item-subtitle">Словарный запас 1000-1100 слов</div>
+            </div>
+            <div class="test__item-text test__odd">Я могу говорить на бытовые темы простыми предложениями. Я могу объясниться 
+              с собеседником, если он говорит медленно и готов объяснять на пальцах. Я могу заполнить анкету, я не растеряюсь в туристической поездке</div>
+          </div>
+
+          <div class="test__item test__item-even">
+            <img src="./img/test3.svg" alt="test" class="test__img-even test__img-even3">
+            <div class="test__item-titles">
+              <div class="test__item-title">A2 Pre-Intermediate</div>
+              <div class="test__item-subtitle">Словарный запас 1500-2000 слов</div>
+            </div>
+            <div class="test__item-text">Я уверенно общаюсь на бытовые темы, могу выразить свое мнение, возразить, привести аргументы. Говорю не быстро, подбираю слова. Читаю уверенно, со словарем могу читать неадаптированную литературу и понять основной смысл</div>
+          </div>
+
+          <div class="test__item test__item-odd">
+            <img src="./img/test4.svg" alt="test" class="test__img-odd test__img-even4">
+            <div class="test__item-titles test__odd">
+              <div class="test__item-title">B1 Intermediate</div>
+              <div class="test__item-subtitle">Словарный запас 2500-3500 слов</div>
+            </div>
+            <div class="test__item-text test__odd">Я могу общаться на многие темы, говорю достаточно быстро, практически не подбирая слова. Чувствую себя уверенно в другой стране</div>
+          </div>
+
+          <div class="test__item test__item-even">
+            <img src="./img/test5.svg" alt="test" class="test__img-even test__img-even5">
+            <div class="test__item-titles">
+              <div class="test__item-title">B2 Upper-Intermediate</div>
+              <div class="test__item-subtitle">Словарный запас 3500-4500 слов</div>
+            </div>
+            <div class="test__item-text">Я говорю бегло, могу развернуто аргументировать свой ответ. Могу преподавать 
+              английский язык или использовать его в работе. Читаю неадаптированную литературу 
+              без словаря, понимая основной смысл</div>
+          </div>
+
+          <div class="test__item test__item-odd">
+            <img src="./img/test6.svg" alt="test" class="test__img-odd test__img-even6">
+            <div class="test__item-titles test__odd">
+              <div class="test__item-title">C1 Advanced</div>
+              <div class="test__item-subtitle">Словарный запас 5000-6000 слов</div>
+            </div>
+            <div class="test__item-text test__odd">Я могу свободно общаться с носителями языка на любые темы, включая профессиональные,
+              понимаю оттенки смысла. Читаю неадаптированную литературу без словаря, понимая 
+              оттенки смысла</div>
+          </div>
+
+          <div class="test__item test__item-even">
+            <img src="./img/test7.svg" alt="test" class="test__img-even test__img-even7">
+            <div class="test__item-titles">
+              <div class="test__item-title">C2 Proficiency</div>
+              <div class="test__item-subtitle">Словарный запас >7000 слов</div>
+            </div>
+            <div class="test__item-text">Я общаюсь на английском языке практически как его носитель. Говорю быстро, точно, 
+              четко выражаю оттенки смысла</div>
+          </div>
+
+        </div>
+
+        <div class="test__level-title">Узнайте ваш уровень</div>
+        <div class="test__level-text">С полного нуля с подростками работаю, начиная с уровня Elementary, программу уровня Beginner делаем в рамках этого курса.
+          Желающим присоединиться к одной из продолжающих групп необходимо пройти тесты на определение их уровня</div>
+
+
+
+
+
+      </div>
+      
+      <div class="container">
+        <div class="test__slider">
+          <div class="swiper-container test__container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper test__wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide test__slide">
+                  <div class="test__level">
+                    Elementary или Pre-Intermediate?
+                  </div>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1RjRgl17gATAEp58ZTqkl7nuzGZ7MmAKjSGikh_qxUh_FZA/viewform?vc=0&c=0&w=1&flr=0" target="_blank" class="btn test__btn">Пройти тест</a>
+                </div>
+
+                <div class="swiper-slide test__slide">
+                  <div class="test__level">
+                    Elementary или Pre-Intermediate?
+                  </div>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1RjRgl17gATAEp58ZTqkl7nuzGZ7MmAKjSGikh_qxUh_FZA/viewform?vc=0&c=0&w=1&flr=0" target="_blank" class="btn test__btn">Пройти тест</a>
+                </div>
+
+                <div class="swiper-slide test__slide">
+                  <div class="test__level">
+                    Elementary или Pre-Intermediate?
+                  </div>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1RjRgl17gATAEp58ZTqkl7nuzGZ7MmAKjSGikh_qxUh_FZA/viewform?vc=0&c=0&w=1&flr=0" target="_blank" class="btn test__btn">Пройти тест</a>
+                </div>
+
+                <div class="swiper-slide test__slide">
+                  <div class="test__level">
+                    Elementary или Pre-Intermediate?
+                  </div>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1RjRgl17gATAEp58ZTqkl7nuzGZ7MmAKjSGikh_qxUh_FZA/viewform?vc=0&c=0&w=1&flr=0" target="_blank" class="btn test__btn">Пройти тест</a>
+                </div>
+
+                <div class="swiper-slide test__slide">
+                  <div class="test__level">
+                    Elementary или Pre-Intermediate?
+                  </div>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1RjRgl17gATAEp58ZTqkl7nuzGZ7MmAKjSGikh_qxUh_FZA/viewform?vc=0&c=0&w=1&flr=0" target="_blank" class="btn test__btn">Пройти тест</a>
+                </div>
+
+                <div class="swiper-slide test__slide">
+                  <div class="test__level">
+                    Elementary или Pre-Intermediate?
+                  </div>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1RjRgl17gATAEp58ZTqkl7nuzGZ7MmAKjSGikh_qxUh_FZA/viewform?vc=0&c=0&w=1&flr=0" target="_blank" class="btn test__btn">Пройти тест</a>
+                </div>
+
+                <div class="swiper-slide test__slide">
+                  <div class="test__level">
+                    Elementary или Pre-Intermediate?
+                  </div>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe1RjRgl17gATAEp58ZTqkl7nuzGZ7MmAKjSGikh_qxUh_FZA/viewform?vc=0&c=0&w=1&flr=0" target="_blank" class="btn test__btn">Пройти тест</a>
+                </div>
+
+
+
+
+            </div>
+            <!-- If we need navigation buttons -->
+           
+        
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar test__scrollbar"></div>
+           
+        </div>
+        <div class="test__prev"> <img src="./img/prev.svg" alt="prev"> </div>
+        <div class="test__next"> <img src="./img/next.svg" alt="next"></div>
+        </div>
+      </div>
+    </section>
+ 
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="footer__item">
+          <a href="#" class="footer__logo"><img src="./img/footer__logo.svg" alt="logo"></a>
+         <div class="footer__texts-pc">
+          <a href="./assets/document.docx" download target="_blank" class="footer__text">Договор-оферта</a>
+            <div class="footer__text">©Все права защищены</div>
+            <div class="footer__text">ИП</div>
+            <div class="footer__text">ОГРН</div>
+         </div>
+        </div>
+        <div class="footer__item">
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="./about.html">Обо мне</a></li>
+            <li class="footer__list-item"><a href="./products.html">Товары</a></li>
+            <li class="footer__list-item"><a href="./reviews.html">Отзывы</a></li>
+            <li class="footer__list-item"><a href="./blog.html">Блог</a></li>
+            <li class="footer__list-item"><a href="./test.html">Тест</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <ul class="footer__list">
+            <li class="footer__list-item"><a>Курсы</a></li>
+            <li class="footer__list-item"><a href="./group.html">Курс для учителей</a></li>
+            <li class="footer__list-item"><a href="./group.html">Групповые занятия онлайн</a></li>
+            <li class="footer__list-item"><a href="./video.html">Видеокурсы</a></li>
+            <li class="footer__list-item"><a href="./corporate.html">Корпоративный английский</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <ul class="footer__list">
+            <li class="footer__list-item"><a >Материалы</a></li>
+            <li class="footer__list-item"><a href="./materials.html">Для учителей</a></li>
+            <li class="footer__list-item"><a href="./materials-students.html">Для учеников</a></li>
+          </ul>
+          <div class="footer__social footer__social-pc">
+            <a href="https://m.vk.com/jenyakimenko" target="_blank" class="footer__social-item"><img src="./img/vk.svg" alt="vk"></a>
+            <a href="https://m.youtube.com/user/achernyakin" target="_blank" class="footer__social-item"><img src="./img/youtube.svg" alt="yt"></a>
+            <a href="https://www.instagram.com/eugenia_yakimenko/" target="_blank" class="footer__social-item"><img src="./img/instagram.svg" alt="inst"></a>
+          </div>
+        </div>
+        <div class="footer__item footer__form-pc">
+          <div class="footer__title">Подпишитесь на новости</div>
+          <form>
+
+              <!-- Hidden Required Fields -->
+              <input type="hidden" name="project_name" value="Форма в футере">
+              <input type="hidden" name="admin_email" value="jennyakimenko@yandex.ru">
+              <input type="hidden" name="form_subject" value="Форма в футере">
+              <!-- END Hidden Required Fields -->
+
+            <div class="footer__radios">
+              <label class="radio__item">
+                <input type="radio" name="radio" value="Я - учитель" class="radio__input">
+                <span class="fake"></span>
+                <span>вы учитель анг. языка</span>
+              </label>
+              <label class="radio__item">
+                <input type="radio" name="radio" value="Я - учиник" class="radio__input">
+                <span class="fake"></span>
+                <span>вы изучаете анг. язык</span>
+              </label>
+            </div>
+            <div class="footer__inputs">
+              <input type="email" placeholder="Email" class="footer__input" name="Email">
+              <button type="submit" class="footer__button">Подписаться</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer__item-tablet">
+
+        <div class="footer__texts-mob">
+          <a href="./assets/document.docx" download target="_blank" class="footer__text">Договор-оферта</a>
+          <div class="footer__text">©Все права защищены</div>
+          <div class="footer__text">ИП</div>
+          <div class="footer__text">ОГРН</div>
+       </div>
+
+        <div class="footer__social">
+          <a href="https://m.vk.com/jenyakimenko" target="_blank" class="footer__social-item"><img src="./img/vk.svg" alt="vk"></a>
+          <a href="https://m.youtube.com/user/achernyakin" target="_blank" class="footer__social-item"><img src="./img/youtube.svg" alt="yt"></a>
+          <a href="https://www.instagram.com/eugenia_yakimenko/" target="_blank" class="footer__social-item"><img src="./img/instagram.svg" alt="inst"></a>
+        </div>
+  
+  
+        <div class="footer__item footer__tablet-form">
+          <div class="footer__title">Подпишитесь на новости</div>
+          <form>
+                     <!-- Hidden Required Fields -->
+                     <input type="hidden" name="project_name" value="Форма в футере">
+                     <input type="hidden" name="admin_email" value="jennyakimenko@yandex.ru">
+                     <input type="hidden" name="form_subject" value="Форма в футере">
+                     <!-- END Hidden Required Fields -->
+            <div class="footer__radios">
+              <label class="radio__item">
+                <input type="radio" name="radio" value="Я - учитель" class="radio__input">
+                <span class="fake"></span>
+                <span>вы учитель анг. языка</span>
+              </label>
+              <label class="radio__item">
+                <input type="radio" name="radio" value="Я - ученик" class="radio__input">
+                <span class="fake"></span>
+                <span>вы изучаете анг. язык</span>
+              </label>
+            </div>
+            <div class="footer__inputs">
+              <input type="email" placeholder="Email" name="Email" class="footer__input">
+              <button type="submit" class="footer__button">Подписаться</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+  <!-------------------------------------------  Modal ------------------------------------------->
+  <!-- <div class="modal__wrapper">
+    <div class="modal">
+      <div class="modal__close"> <img src="./img/cancel.svg" alt="cancel" width="10px" height="10px"></div>
+      <div class="modal__title"><span>Написать мне:</span> </div>
+      <div class="modal__body">
+      </div>
+    </div>
+  </div> -->
+  <!-------------------------------------------  Modal End ------------------------------------------->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script src="./js/scripts.min.js"></script>
+  
+</body>
+</html>
